@@ -1,0 +1,224 @@
+
+div {
+    border-radius: 5px;
+}
+
+body {
+   background-attachment: fixed;  //wraz z scrollem przesuwa się tło
+}
+
+#header {
+	z-index: 1;
+	position: relative;
+	width: 60%;
+	margin-top: -39px;
+	margin-left: 270px;
+	height: 200px;
+	background: url("brow.png");
+/*	background-color: #DED5D0;*/
+	margin-bottom: 5px;
+
+}
+
+#name  {
+   /* font-family: Oldtown, sans-serif, serif;*/
+    color: #FFFFFF;
+    position: relative;
+    margin-left: 15px;
+    padding-top: 17px;
+    font-size: 19px;
+}
+
+#cyceron {
+    margin-left: 400px;
+    margin-top: 200px;
+} 
+
+#menu {
+    position:relative;
+    
+}
+
+#tabs{
+ 
+  font-size: small;
+  font-style: italic;
+  display: inline-blocks;
+  overflow: hidden /*auto*/;
+  width: 100%;
+  margin: 0;
+  padding: 25px 0 0 0;
+  list-style: none;
+}
+
+@-moz-document url-prefix() {
+    #tabs {
+	font-size: 11px;
+    }
+    #header {
+	margin-top: -30px;
+    }
+    #name {
+	font-size: 15px;
+	padding-top: 20px;
+    }
+    
+}
+@-webkit-document url-prefix() {
+    #name {
+	font-size: 15px;
+	padding-top: 20px;
+    }
+}
+
+#tabs li{
+  float: left;
+  margin: 0 .5em 0 0;
+}
+
+#tabs a{
+  position: relative;
+  background: #ddd;
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  padding: .5em 3.5em;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  border-radius: 5px 0 0 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after{
+  background: #fff;
+}
+
+#tabs a:focus{
+  outline: 0;
+}
+
+#tabs a::after{
+  content:'';
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  right: -.5em;  
+  bottom: 0;
+  width: 1em;
+  background: #ddd;
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  transform: skew(10deg); /*transformacja dziwna, ale git ;D*/
+  -webkit-transform:skew(10deg); 
+  border-radius: 0 5px 0 0;  
+}
+
+#tabs #current a,
+#tabs #current a::after{
+  background: url("main.png");
+  z-index: 3;
+}
+
+#content
+{
+    background: url("main.png");
+    padding: 4.5em;
+    height: 670px;
+    z-index: 2;	
+    border-radius: 0 5px 5px 5px;
+    box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+    
+}
+
+ #tab1  p {
+     font-size: 16px;
+     opacity: 1;
+     padding-top: 40px;
+     margin-right: 200px;
+    /* line-height: 18px; odstęp między liniami*/
+    /*font-style: italic;*/
+     text-indent: 50px;
+     font-family: sans-serif;
+     text-align: justify; 
+    
+}
+
+#myphoto {
+    opacity: 1;
+    height: 250px;
+    border: 2px solid black;
+    float: right;
+    
+}
+
+#skills {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+#tab4 {
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#tab5 #m {
+    height: 100px;
+}
+
+#tab5 #mail {
+    font-size: 16px;
+    font-family:Helvetica, Garamond, sans-serif;
+    font-style: italic;
+    text-align: center;
+    position: relative;   
+}
+
+#google {
+    height: 100px;
+    width: 125px;
+}
+
+#coursera {
+    height: 120px;
+    width: 150px;
+}
+
+#codeac {
+    height: 100px;
+    width: 180px;
+}
+
+#snake {
+    height: 150px;
+    width: 150px;
+}
+
+#footer {
+    float: right;
+}
+
