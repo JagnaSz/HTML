@@ -1,0 +1,156 @@
+body {
+    background: #FFFFCC;
+    margin:0;
+    padding: 0;
+}
+
+p:first-letter {
+    color:#6666CC;
+    font-family:serif;
+    font-size: 130%;
+}
+
+.tytul {
+    border-radius: 10px 10px 10px 10px;
+    width:100%;
+    background-color:#FF6666;
+    color:#FFFFCC;
+    letter-spacing:0mm;
+    text-align: center;
+    font-size:20px;
+}
+h1 {
+     color:#FFFFCC;
+     letter-spacing: 3mm;
+}
+
+h2{
+    color:#FFCC33;
+}
+
+h3{
+    color: #FF3333;
+}
+
+p {
+    text-indent: 30px;
+    font-style:oblique;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+
+
+table {
+    border: 3px solid orange;
+    background-color: #ffc;
+}
+
+thead {
+    background-color: green;
+    color:   #ffc;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+td:nth-child(1) {
+    background-color: silver;
+}
+
+td:nth-child(3) {
+    background-color: red;
+}
+
+tfoot{
+     background-color: teal;
+     color:   #ffc;
+     font-size: 18px;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+ol ol ol {
+     list-style-type: lower-greek;
+}
+
+#wszystko {
+    position:relative;
+    max-width:1335px;
+}
+
+#main {
+    border-radius: 10px 10px 10px 10px;
+    width:100%;
+    margin-bottom:10px;
+    padding: 0px 10px;
+    overflow: auto;
+    text-align: left;
+    background-color: #FF9966;
+}
+.spis{
+    margin-left: 450px;
+}
+.spis ul {
+    margin: 0px;
+    padding: 0px;
+}
+.spis li a {
+    padding: .5em 3.5em;
+    text-decoration:none;
+    display:inline;   
+}
+ul.menu {
+    padding:0px;
+    margin-left:100px;
+}
+
+.menu li {
+    background-color: #FFFFCC;
+    float:left;
+    border: 2px outset #FF6633;
+}
+
+.menu li ul li {
+    font-size: 13px;
+}
+
+.spis li a:link, #content li a:visited {
+    display: inline;
+    padding: 8px 0 0 10px;
+}
+
+.spis li a:hover {
+    background: #FFCC66;
+    padding: 8px 0 0 10px;
+    cursor:default;
+}
+
+.spis ul, menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#tresc ul a:link, ul a:visited
+{
+	color:black;
+}
+
+#komputer {
+     position: relative;
+     float: left;
+}
+#komp {
+    position: relative;
+    float: right; 
+}
+

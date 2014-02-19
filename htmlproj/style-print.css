@@ -1,0 +1,44 @@
+.tytul 
+	{font-size: 18px; color:#000; font-weight: bold; margin: 10px 0 10px 0;
+	}
+#main 
+	{margin:0;
+	 padding:0;
+	 font-family: Arial, Tahoma, sans-serif;
+	 font-size: 12px;
+	 color: #000000;
+	 text-align: left;
+	 line-height: 1.25;
+	 width: 100%; margin: 0; float: none;
+	}
+.menu 
+	{display : none;
+	}
+.spis
+	{display : none;
+	}
+table{
+    border:3px solid black;
+}
+/*#tresc
+	{width: 100%; margin: 0; float: none;
+	}*/
+.lighttext
+	{color: #000;
+	}
+#main a
+	{color: #000;
+	}
+
+h2 {
+    color: #000000;
+}
+
+h3{
+    color:#000000;
+}
+
+p:first-letter{
+    color: #000000;
+    font-size: 100%;
+}
