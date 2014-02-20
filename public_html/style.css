@@ -203,6 +203,11 @@ body {
     width: 125px;
 }
 
+#git {
+	height:125px;
+	width:125px;
+}
+
 #coursera {
     height: 120px;
     width: 150px;
